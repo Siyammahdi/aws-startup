@@ -9,8 +9,8 @@ import Image6 from "../../../../public/6.png"
 
 const About = () => {
   return (
-    <div className="flex">
-      <div className="w-1/4">
+    <div className="flex flex-col lg:flex-row">
+      <div className="lg:w-1/4">
         <h3 className="text-3xl font-bold">Innovation powered by AWS</h3>
         <p className="font-semibold leading-relaxed py-10">
           Millions of customers, including thousands of the fastest-growing
@@ -18,8 +18,8 @@ const About = () => {
           possible.
         </p>
       </div>
-      <div className="w-3/4">
-        <div className="grid grid-cols-3 gap-5">
+      <div className="lg:w-3/4">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {fakeData.map((data) => (
             <div className="space-y-3" key={data.id}>
               <Image src={data.image} alt="image" height={40} width={60} />

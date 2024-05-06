@@ -6,13 +6,13 @@ const Stepper = () => {
   return (
     <div>
       <h3 className="text-3xl font-bold">Support at every stage</h3>
-      <div className="flex justify-between">
-        <div className="w-2/3">
+      <div className="flex flex-col lg:flex-row justify-between">
+        <div className="lg:w-2/3">
           <div className="p-4">
             <Accordion items={items} />
           </div>
         </div>
-        <div className="w-2/3">
+        <div className="lg:w-2/3">
           <Image src={"/step1.png"} alt="step" width={700} height={100} />
           <div className="flex justify-center mb-20">
             <button className="bg-button text-white px-6 py-3 rounded-full text-sm font-bold">
@@ -55,7 +55,7 @@ const items = [
     },
     {
         id: 2,
-        title: 'Build your minimum viable product',
+        title: 'Build your minimum viable',
         content: 'Once youre ready to start building, choose from dozens of battle-tested templates, sample code or extend your runway with access to credits and exclusive third-party offers.',
     },
     {

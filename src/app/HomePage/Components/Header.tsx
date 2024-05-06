@@ -4,7 +4,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className={`flex justify-between py-10 my-10 shadow-xl px-10 rounded-2xl`}>
+    <div className={`flex justify-between items-center py-5 lg:py-10 my-10 shadow-xl px-10  rounded-2xl`}>
       <div className="flex gap-10">
         <div>
           <svg
@@ -69,7 +69,7 @@ const Header = () => {
             </defs>
           </svg>
         </div>
-        <div className="space-x-5">
+        <div className="hidden lg:block space-x-5">
           <Link href="/home">Home</Link>
           <Link href="/events">Events</Link>
           <Link href="/showcase">Showcase</Link>
