@@ -24,7 +24,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className="border-b rounded-xl py-6 border-gray-200">
           <button
-            className="w-full text-left py-2 px-4  hover:bg-gray-50 focus:outline-none"
+            className="w-full text-left py-2 px-4  focus:outline-none"
             onClick={() => toggleItem(index)}
           >
           <span className='text-xl border-2 py-2 px-[14px] rounded-full font-semibold mx-2'>{item.id}</span> {item.title}

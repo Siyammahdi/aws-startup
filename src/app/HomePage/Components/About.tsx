@@ -9,13 +9,13 @@ import Image6 from "../../../../public/6.png"
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row">
+    <div >
+              <h3 className="text-5xl text-center py-20">our service</h3>
+      <div className="flex flex-col lg:flex-row">
       <div className="lg:w-1/4">
-        <h3 className="text-3xl font-bold">Innovation powered by AWS</h3>
-        <p className="font-semibold leading-relaxed py-10">
-          Millions of customers, including thousands of the fastest-growing
-          startups, use AWS to build fast, keep costs low, and prove what’s
-          possible.
+
+        <p className="font-semibold text-3xl leading-relaxed py-10">
+        Innovation powered by Uqiflow 
         </p>
       </div>
       <div className="lg:w-3/4">
@@ -28,6 +28,7 @@ const About = () => {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </div>
   );

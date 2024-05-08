@@ -5,14 +5,14 @@ import Accordion from "./Accordion";
 const Stepper = () => {
   return (
     <div>
-      <h3 className="text-3xl font-bold">Support at every stage</h3>
-      <div className="flex flex-col lg:flex-row justify-between">
-        <div className="lg:w-2/3">
+      <div className="inline-block">
+        <div className="lg:w-2/3 sticky top-[90px] float-start">
+        <h3 className="text-5xl font-bold">How Uqiflow works</h3>
           <div className="p-4">
             <Accordion items={items} />
           </div>
         </div>
-        <div className="lg:w-2/3">
+        <div className="lg:w-full float-end">
           <Image src={"/step1.png"} alt="step" width={700} height={100} />
           <div className="flex justify-center mb-20">
             <button className="bg-button text-white px-6 py-3 rounded-full text-sm font-bold">
