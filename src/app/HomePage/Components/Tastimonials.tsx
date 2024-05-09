@@ -6,12 +6,12 @@ import Image from "next/image";
 const Tastimonials: React.FC = () => {
   return (
     <div className="my-20">
-      <h2 className="text-5xl text-center my-20">What our client says</h2>
-      <div className="flex items-center">
+      <h2 className="text-3xl lg:text-5xl text-center my-10 lg:my-20">What our client says</h2>
+      <div className="flex flex-col lg:flex-row items-center">
         <div className="w-1/2">
           <Image src={Img} alt="user" height={500} width={400} />
         </div>
-        <div className="w-1/2 space-y-10">
+        <div className="lg:w-1/2 space-y-10">
             <Image src={Vector} alt="user" height={60} width={60}/>
           <p>{testimonialsData[0].text}</p>
           <div>

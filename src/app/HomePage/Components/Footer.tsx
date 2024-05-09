@@ -4,8 +4,8 @@ import { FiFacebook, FiLinkedin, FiTwitter } from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <div className="max-w-7xl flex justify-between mx-auto py-14">
-        <div className="hidden lg:block space-x-5">
+    <div className="max-w-7xl flex flex-col lg:flex-row items-center gap-2 justify-between mx-auto py-14">
+        <div className="space-x-5">
           <Link href="/home">Home</Link>
           <Link href="/events">Events</Link>
           <Link href="/showcase">Showcase</Link>

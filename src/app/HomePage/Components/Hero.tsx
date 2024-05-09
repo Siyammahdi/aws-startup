@@ -2,9 +2,10 @@ import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
+
   return (
     <div className="flex flex-col lg:flex-row relative justify-between items-center">
-      <div style={{inset:"-300px -300px -325px 350px", filter: "blur(100px)"}} className="absolute z-0">
+      <div style={{inset:"-300px -300px -325px 250px", filter: "blur(100px)"}} className="hidden lg:block absolute z-0">
         <svg
           height="100%"
           width="100%"
@@ -114,8 +115,8 @@ const Hero = () => {
             className="rounded-2xl my-10"
             src={"/Rectangle 4.png"}
             alt="aws"
-            width={600}
-            height={400}
+            width={700}
+            height={200}
           />
         </div>
     </div>

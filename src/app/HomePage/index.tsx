@@ -29,7 +29,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto lg:px-0 md:px-16 px-5 ">
         <Header />
         <Hero />
         <Sponsor />

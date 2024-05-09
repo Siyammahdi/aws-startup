@@ -5,10 +5,10 @@ import Accordion from "./Accordion";
 const Stepper = () => {
   return (
     <div>
-      <div className="flex gap-20">
+      <div className="lg:flex gap-20">
         <div>
         <div className=" sticky top-[90px]">
-        <h3 className="text-5xl font-bold">How Uqiflow works</h3>
+        <h3 className="text-3xl lg:text-5xl font-bold">How Uqiflow works</h3>
           <div className="p-4">
             <Accordion items={items} />
           </div>

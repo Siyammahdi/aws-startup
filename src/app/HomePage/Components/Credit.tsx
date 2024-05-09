@@ -9,10 +9,10 @@ const Credit = () => {
       </div>
       <div className="lg:w-1/2 ">
         <div className="px-10 py-10 lg:py-0 space-y-5">
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-xl lg:text-3xl font-bold">
             Easiest way to build with leading foundation models
           </h3>
-          <p className="text-xl leading-relaxed">
+          <p className="text-sm lg:text-xl leading-relaxed">
             AWS Activate credits are redeemable on third-party models on Amazon
             Bedrock, our fully-managed service that offers a choice of
             high-performing foundation models (FMs) from leading AI companies,
