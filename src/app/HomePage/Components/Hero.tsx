@@ -3,8 +3,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col lg:flex-row relative justify-between">
-      <div style={{inset:"-300px -300px -325px 50px", filter: "blur(100px)"}} className="absolute z-0">
+    <div className="flex flex-col lg:flex-row relative justify-between items-center">
+      <div style={{inset:"-300px -300px -325px 350px", filter: "blur(100px)"}} className="absolute z-0">
         <svg
           height="100%"
           width="100%"
@@ -99,24 +99,23 @@ const Hero = () => {
         </svg>
       </div>
         <div className="lg:w-1/3 space-y-10">
-          <h2 className="text-4xl md:text-6xl font-semibold leading-[9] ">
+          <h2 className="text-4xl md:text-6xl font-semibold">
           Grow your Business with Uqiflow
           </h2>
-          <p className="text-lg lg:text-xl leading-relaxed">
-            Join AWS Activate, the leading startup program, to bring your idea
-            to market - backed by the most trusted cloud platform.
+          <p className="text-lg lg:text-lg leading-relaxed">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
           </p>
-          <button className="bg-button text-white px-6 py-4  rounded-full text-sm font-bold">
+          <button className="bg-button text-white px-8 py-2  rounded-full text-sm font-bold">
             Join now
           </button>
         </div>
         <div className="relative z-10">
           <Image
             className="rounded-2xl my-10"
-            src={"/maxresdefault.jpg"}
+            src={"/Rectangle 4.png"}
             alt="aws"
-            width={800}
-            height={500}
+            width={600}
+            height={400}
           />
         </div>
     </div>

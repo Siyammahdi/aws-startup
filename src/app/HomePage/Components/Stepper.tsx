@@ -5,14 +5,16 @@ import Accordion from "./Accordion";
 const Stepper = () => {
   return (
     <div>
-      <div className="inline-block">
-        <div className="lg:w-2/3 sticky top-[90px] float-start">
+      <div className="flex gap-20">
+        <div>
+        <div className=" sticky top-[90px]">
         <h3 className="text-5xl font-bold">How Uqiflow works</h3>
           <div className="p-4">
             <Accordion items={items} />
           </div>
         </div>
-        <div className="lg:w-full float-end">
+        </div>
+        <div className="">
           <Image src={"/step1.png"} alt="step" width={700} height={100} />
           <div className="flex justify-center mb-20">
             <button className="bg-button text-white px-6 py-3 rounded-full text-sm font-bold">

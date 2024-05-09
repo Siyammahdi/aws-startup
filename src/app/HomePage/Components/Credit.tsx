@@ -3,7 +3,7 @@ import React from "react";
 
 const Credit = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center shadow-2xl rounded-2xl overflow-hidden my-28">
+    <div className="flex flex-col lg:flex-row items-center shadow-2xl rounded-2xl overflow-hidden my-36">
       <div className="lg:w-1/2 ">
         <Image src={"/credit.jpg"} alt="credit" width={900} height={500} />
       </div>
